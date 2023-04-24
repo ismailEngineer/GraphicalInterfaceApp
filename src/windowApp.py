@@ -16,7 +16,7 @@ class WindowApp(QWidget):
         self.title = "WindowApp"
         #self.setGeometry(300, 300, 300, 220)
         self.setWindowTitle(self.title)
-        self.setWindowIcon(QIcon('windowIcon.png'))
+        self.setWindowIcon(QIcon('../windowIcon.png'))
 
     def run_window(self):
         layout = QHBoxLayout()
